@@ -1578,11 +1578,62 @@ font-family: Inter;
 color: white;
 /* label */
 }
+.topcompres{
+    color: #FFFFFF;
+}
 @media only screen and (max-width: 360px) {
     .homepagepurple {
     
       background-color: rgb(255, 255, 255);
-      height: 109vh;
+      height: 219vh;
+    }
+    .topcomp{
+        color: #FFFFFF;
+    }
+    .belowred{
+        display: none;
+    }
+    .topcompres{
+        /* Top Companies Hiring */
+
+position: absolute;
+width: 326px;
+height: 72px;
+left: 721px;
+top: 6362px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #404366;
+
+transform: scale(4.4);
+    }
+    .chooseres{
+        /* Description */
+
+position: absolute;
+width: 266px;
+height: 46px;
+left: 555px;
+top: 7664px;
+
+transform: scale(3.4);
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+/* or 128% */
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #404366;
+
+
     }
     .redfont{
         display: none;
@@ -1645,6 +1696,23 @@ color: white;
     }
     .join{
         display: none;
+    }
+    .joinres{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 17px 35px;
+transform: scale(2.03);
+position: absolute;
+width: 161px;
+height: 53px;
+left: 599px;
+top: 7863px;
+border-style: none;
+background: #F26A7E;
+border-radius: 6px;
+font-family: Inter;
+color: white;
     }
     .topcomp{
        
