@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.misson{
+    /* Untitled_Artwork 47 1 */
+  
+  position: absolute;
+  width: 624px;
+  height: 483px;
+  left: 993px;
+  top: 90px;
+  background: url(../public/mission.png);
+  
+  border-radius: 58.359px;
+  
+  }
+  .lorem{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer dolor sit amet, consectetur adipiscing elit. Nunc odio in et. id integer dolor sit amet, consectetur adipiscing elit. Net. */
+
+position: absolute;
+width: 478px;
+height: 160px;
+left: 287px;
+top: 277px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* or 160% */
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #18191F;
+
+
+  }
+  .mis{
+    /* Our Mission */
+
+position: absolute;
+width: 236px;
+height: 98px;
+left: 390px;
+top: 31px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 98px;
+/* identical to box height, or 245% */
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #404366;
+
+
+  }
+  .underline{
+    /* Rectangle 1651 */
+
+position: absolute;
+width: 236px;
+height: 3px;
+left: 5px;
+top: 90px;
+
+background: #F26A7E;
+border-radius: 18px;
+
+  }
+  .about{
+    /* About us */
+
+position: absolute;
+width: 172px;
+height: 98px;
+left: 80px;
+top: 31px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 39px;
+line-height: 98px;
+/* identical to box height, or 245% */
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #C9CBE2;
+
+
+  }
+  .join{
+    /* button/big/hover */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 17px 35px;
+
+position: absolute;
+width: 161px;
+height: 53px;
+left: 309px;
+top: 593px;
+border-style: none;
+background: #F26A7E;
+border-radius: 6px;
+font-family: Inter;
+color: white;
+/* label */
+
+
+  }
