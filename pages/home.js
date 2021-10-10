@@ -215,7 +215,7 @@ const home = () => {
       <section className={styles.homepage2}>
         <div className={styles.ourno}>
           <h3 >
-          Our Numbers
+          
           </h3>
           
           </div>
@@ -223,8 +223,12 @@ const home = () => {
 
           </div>
           </section>
+          <h1 className={styles.topcompres}>Top Companies <br/>Hiring </h1>
           <section className={styles.homepagepurple}>
-            <div className={styles.topcomp}><h1 >Top Companies Hiring </h1>
+          
+            <div className={styles.topcomp}>
+              <h1 >Top Companies Hiring </h1>
+              
             <p className={styles.redfont}>Get internships in 
 renowned companies</p>
           <p className={styles.belowred}>Choose HiringBird for your next internship opportunity</p>
@@ -263,6 +267,11 @@ renowned companies</p>
             <button className={styles.join}>Join skilzen</button>
           
           </section>
+          <section >
+            <h1 className={styles.chooseres}>Choose HiringBird for your next internship opportunity</h1>
+          </section>
+          <button className={styles.joinres}>Join skilzen</button>
+          
         <footer className={styles.footer}>
           <ul className={styles.footerlist}>
             <li className={styles.fl1}>
